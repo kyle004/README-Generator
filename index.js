@@ -1,8 +1,8 @@
 const inquirer = require('inquirer')
 const axios = require('axios')
 const fs = require('fs')
-const generateMarkdown = require('./utils/generateMarkdown')
-const gitName = require('./utils/username')
+const generateMarkdown = require('./generateMarkdown')
+// const gitName = require('.')
 
 
 // array of questions for user
